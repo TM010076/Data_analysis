@@ -9,9 +9,9 @@
    * 対立仮説（H1）：良性の腫瘍半径　<　悪性の腫瘍半径
     　
 ## 学習に使うデータセット
-  * UC Irvine Machine Learning RepositoryからDiagnostic Wisconsin Breast Cancer Databaseをダウンロードします。
+  * UC Irvine Machine Learning Repository から Diagnostic Wisconsin Breast Cancer Database をダウンロードします。
   * 属性情報（主要な列のみ、以下に概要を記載します。）
-   1) ID number
+    1) ID number
     2) Diagnosis (M = malignant, B = benign)
     3-32) Ten real-valued features are computed for each cell nucleus:
        a) radius (mean of distances from center to points on the perimeter)
