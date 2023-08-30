@@ -5,6 +5,7 @@
   * 尚、有意水準は5％とします。
   * radius_mean：中心から外周までの平均距離（半径）
   * 帰無仮説（H0）：良性の腫瘍半径　=　悪性の腫瘍半径
+  * 対立仮説（H1）：良性の腫瘍半径　<　悪性の腫瘍半径
     　
 ## 学習に使うデータセット
   * UC Irvine Machine Learning RepositoryからDiagnostic Wisconsin Breast Cancer Databaseをダウンロードします。
