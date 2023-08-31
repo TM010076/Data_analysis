@@ -11,19 +11,11 @@
 ## 学習に使うデータセット
   * UC Irvine Machine Learning Repository から Diagnostic Wisconsin Breast Cancer Database をダウンロードします。
   * 属性情報（主要な列のみ、以下に概要を記載します。）
-    1) ID number
-    2) Diagnosis (M = malignant, B = benign)
-    3-32) Ten real-valued features are computed for each cell nucleus:
-       a) radius (mean of distances from center to points on the perimeter)
-       b) texture (standard deviation of gray-scale values)
-       c) perimeter
-       d) area
-       e) smoothness (local variation in radius lengths)
-       f) compactness (perimeter^2 / area - 1.0)
-       g) concavity (severity of concave portions of the contour)
-       h) concave points (number of concave portions of the contour)
-       i) symmetry
-       j) fractal dimension ("coastline approximation" - 1)
-    
+    1. id：連番
+    2. diagnosis："B"か"M"の文字が格納されている（"B"：良性、"M"：悪性）
+    3. radius_mean：腫瘍半径（中心から外周までの平均距離）
+    4. texture_mean：グレースケール（色の濃さ）の平均値
+    5. perimeter_mean：外周の平均の長さ
+        
 ## 結果
   * p値が0.05を下回っているので、"有意差あり"とみなすことができ、「良性の腫瘍半径は悪性の腫瘍半径より小さい」と判断できました。
