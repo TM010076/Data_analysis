@@ -11,7 +11,7 @@
 ## 学習に使うデータセット
   * UC Irvine Machine Learning Repository から Diagnostic Wisconsin Breast Cancer Database をダウンロードします。
   * 属性情報（主要な列のみ、以下に概要を記載します。）
-　　1. id：連番
+   1. id：連番
    2. diagnosis："B"か"M"の文字が格納されている（"B"：良性、"M"：悪性）
    3. radius_mean：腫瘍半径（中心から外周までの平均距離）
    4. texture_mean：グレースケール（色の濃さ）の平均値
